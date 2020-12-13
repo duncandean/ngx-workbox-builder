@@ -1,18 +1,18 @@
 module.exports = {
-	parser: '@typescript-eslint/parser',
+  parser: '@typescript-eslint/parser',
 
-	parserOptions: {
-		ecmaVersion: 2020,
+  parserOptions: {
+    ecmaVersion: 2020,
 
-		sourceType: 'module',
-	},
+    sourceType: 'module',
+  },
 
-	extends: [
-		'plugin:@typescript-eslint/recommended',
-		'prettier/@typescript-eslint',
-		'plugin:prettier/recommended',
-	],
+  extends: [
+    'plugin:@typescript-eslint/recommended',
+    'prettier/@typescript-eslint',
+    'plugin:prettier/recommended',
+  ],
 
-	rules: {},
-	ignorePatterns: ['./**/files/**/*', 'schematics/**/*.js', 'builders/**/*.js'],
+  rules: {},
+  ignorePatterns: ['./**/files/**/*', 'schematics/**/*.js', 'builders/**/*.js'],
 };

@@ -1,9 +1,9 @@
 {
-	"builders": {
-		"apple": {
-			"implementation": "./builders/apple/index",
-			"schema": "./builders/apple/schema.json",
-			"description": "Runs any command line in the operating system."
-		}
-	}
+  "builders": {
+    "apple": {
+      "implementation": "./builders/apple/index",
+      "schema": "./builders/apple/schema.json",
+      "description": "Runs any command line in the operating system."
+    }
+  }
 }

@@ -1,33 +1,33 @@
 {
-	"name": "ngx-workbox-builder",
-	"version": "0.0.1",
-	"description": "Angular builder for using Workbox",
-	"main": "index.js",
-	"author": "Duncan Dean",
-	"license": "MIT",
-	"builders": "builders.json",
-	"schematics": "./schematics/collection.json",
-	"ng-add": {
-		"save": "devDependencies"
-	},
-	"devDependencies": {
-		"@angular-devkit/architect": "^0.1100.4",
-		"@angular-devkit/core": "^11.0.4",
-		"@angular-devkit/schematics": "^11.0.4",
-		"@types/workbox-build": "^5.0.0",
-		"@typescript-eslint/eslint-plugin": "^4.9.1",
-		"@typescript-eslint/parser": "^4.9.1",
-		"eslint": "^7.15.0",
-		"eslint-config-prettier": "^7.0.0",
-		"eslint-plugin-prettier": "^3.2.0",
-		"prettier": "^2.2.1",
-		"ts-node": "^9.1.1",
-		"typescript": "^4.1.3",
-		"workbox-build": "^6.0.2"
-	},
-	"scripts": {
-		"lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
-		"prepublish": "yarn build",
-		"build": "./node_modules/typescript/bin/tsc && ./node_modules/typescript/bin/tsc -p tsconfig.schematics.json"
-	}
+  "name": "ngx-workbox-builder",
+  "version": "0.0.1",
+  "description": "Angular builder for using Workbox",
+  "main": "index.js",
+  "author": "Duncan Dean",
+  "license": "MIT",
+  "builders": "builders.json",
+  "schematics": "./schematics/collection.json",
+  "ng-add": {
+    "save": "devDependencies"
+  },
+  "devDependencies": {
+    "@angular-devkit/architect": "^0.1100.4",
+    "@angular-devkit/core": "^11.0.4",
+    "@angular-devkit/schematics": "^11.0.4",
+    "@types/workbox-build": "^5.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.9.1",
+    "@typescript-eslint/parser": "^4.9.1",
+    "eslint": "^7.15.0",
+    "eslint-config-prettier": "^7.0.0",
+    "eslint-plugin-prettier": "^3.2.0",
+    "prettier": "^2.2.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3",
+    "workbox-build": "^6.0.2"
+  },
+  "scripts": {
+    "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
+    "prepublish": "yarn build",
+    "build": "./node_modules/typescript/bin/tsc && ./node_modules/typescript/bin/tsc -p tsconfig.schematics.json"
+  }
 }
